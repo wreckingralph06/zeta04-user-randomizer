@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# Random User Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This mini-project displays the Full Name and Email Address fetched from https://randomuser.me/api
+
+## Live Demo
+You can see the live demo [here](https://zeta04-user-randomizer.vercel.app).
+
+## Local Setup
+
+Before you can run this project locally:
+1. Clone this repository using git clone:
+  `git clone https://github.com/wreckingralph06/zeta04-user-randomizer.git`
+2. Go to root directory and install dependencies
+   `npm install`
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the root directory, after you have installed the dependencies, you can run:
 
 ### `npm start`
 
