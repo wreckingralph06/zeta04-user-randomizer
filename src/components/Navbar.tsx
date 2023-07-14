@@ -13,6 +13,9 @@ function Navbar() {
                         <li>
                             <a href="/">Home</a>
                         </li>
+                        <li>
+                            <a href="https://waldocandaza.vercel.app/">Author</a>
+                        </li>
                     </ul>
                 </div>
             </div>
