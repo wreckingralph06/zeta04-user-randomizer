@@ -13,12 +13,15 @@ function App() {
 
   useEffect(() => {
     let ignore = false;
-    Axios.get('https://randomuser.me/api')
-      .then(res => {
-        if (!ignore) {
-          setRandomData(res.data.results)
-        }
-      }).catch(err => console.log(err))
+
+    const getData = async () => {
+      const data = await Axios.get('https://randomuser.me/api');
+      if (!ignore) {
+        setRandomData(data.data.results)
+      }
+    };
+
+    getData().catch(err => console.log(err))
     return () => { ignore = true }
   }, []);
 
