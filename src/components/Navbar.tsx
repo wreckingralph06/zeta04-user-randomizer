@@ -16,6 +16,11 @@ function Navbar() {
                         <li>
                             <a href="https://waldocandaza.vercel.app/">Author</a>
                         </li>
+                        <li>
+                            <a className="github-link" href="https://github.com/wreckingralph06/zeta04-user-randomizer">
+                                <img className="github-icon" src="/icons8-github.svg"></img>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
