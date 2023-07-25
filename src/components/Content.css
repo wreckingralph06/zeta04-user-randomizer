@@ -32,12 +32,16 @@
 
 .detail-text {
     margin: 0;
-    line-height: 0.167;
+    line-height: 1.167;
     letter-spacing: 0;
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.detail-text h1 {
+    text-align: center;
 }
 
 .label-icon {
